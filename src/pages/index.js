@@ -1,0 +1,57 @@
+import React from "react"
+import Img from "gatsby-image"
+
+import styles from "./master.module.css"
+// import logo from "../gatsby-light.svg"
+
+export default ({ data }) => (
+  <div className={styles.gallery}>
+    {/* <div className={styles.header}> */}
+      {/* <h1> */}
+        {/* powered by */}
+        {/* <img src={logo} className={styles.logo} alt="" /> */}
+      {/* </h1> */}
+    {/* </div> */}
+    <div className={styles.sites}>
+      {data.allSitesYaml.edges.map(({ node }, index) => (
+        <div className={styles.site} key={index}>
+          <a href={node.url} target="_blank">
+            <Img
+              sizes={
+                node.childScreenshot.screenshotFile.childImageSharp.sizes
+              }
+              // resolutions={
+              //   node.childScreenshot.screenshotFile.childImageSharp.resolutions
+              // }
+              alt={node.name}
+              className={styles.shadow}
+            />
+            <span>{node.name}</span>
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+)
+
+export const query = graphql`
+  query SitesQuery {
+    allSitesYaml {
+      edges {
+        node {
+          url
+          name
+          childScreenshot {
+            screenshotFile {
+              childImageSharp {
+                sizes(maxWidth: 600) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
