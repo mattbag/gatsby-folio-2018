@@ -9,7 +9,11 @@ const Header = () => (
         margin: '0 auto',
         maxWidth: `60em`,
         padding: '1rem',
-        textAlign: `center`
+        textAlign: `center`,
+        position: 'fixed',
+        zIndex: 2,
+        left:0,
+        right:0
       }}
     >
         <Link

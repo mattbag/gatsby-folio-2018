@@ -5,32 +5,29 @@ import styles from "./master.module.css"
 // import logo from "../gatsby-light.svg"
 
 export default ({ data }) => (
-  <div className={styles.gallery}>
-    {/* <div className={styles.header}> */}
-      {/* <h1> */}
-        {/* powered by */}
-        {/* <img src={logo} className={styles.logo} alt="" /> */}
-      {/* </h1> */}
-    {/* </div> */}
-    <div className={styles.sites}>
-      {data.allSitesYaml.edges.map(({ node }, index) => (
+  <div className={styles.wrap}>
+   
+    <div className={styles.grid}>
+      {data && data.allSitesYaml.edges.map(({ node }, index) => (
         <div className={styles.site} key={index}>
           <a href={node.url} target="_blank">
+          <div className={styles.pic}>
+
             <Img
-              sizes={
-                node.childScreenshot.screenshotFile.childImageSharp.sizes
-              }
-              // resolutions={
-              //   node.childScreenshot.screenshotFile.childImageSharp.resolutions
-              // }
+              sizes={node.childScreenshot.screenshotFile.childImageSharp.sizes}
               alt={node.name}
               className={styles.shadow}
-            />
-            <span>{node.name}</span>
+              />
+
+            </div>
+            <div className={styles.label}>
+              <div className={styles.label__in}>{node.name}</div>
+            </div>
           </a>
         </div>
       ))}
     </div>
+
   </div>
 )
 
