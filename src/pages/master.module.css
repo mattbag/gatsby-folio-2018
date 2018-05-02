@@ -11,6 +11,7 @@ html {
     padding: 3rem 1rem;
     background-color: #1b2836;
     background-color: var(--blue, #1b2836);
+    background-image: url('http://thepatternlibrary.com/img/as.gif');
     background-image: url('./../as.gif');
     background-blend-mode: luminosity;
 }

@@ -1,4 +1,5 @@
 module.exports = {
+  // pathPrefix: "/gatsby-folio-2018",
   siteMetadata: {
     title: 'Matt Bagni @ 2018 w/ Gatsby Lamba',
   },
