@@ -32,6 +32,7 @@ export default ({ data }) => (
     
    
 {console.warn('add contact here')}
+{console.warn('add build info/credits')}
   </div>
 )
 
@@ -45,7 +46,7 @@ export const query = graphql`
           childScreenshot {
             screenshotFile {
               childImageSharp {
-                sizes(maxWidth: 600) {
+                sizes(maxWidth: 900) {
                   ...GatsbyImageSharpSizes
                 }
               }
