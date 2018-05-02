@@ -1,16 +1,14 @@
 import React from "react"
 import Img from "gatsby-image"
+import Grid from './../components/Grid/index'
 
 import styles from "./master.module.css"
 // import logo from "../gatsby-light.svg"
 
 export default ({ data }) => (
   <div className={styles.wrap}>
-   
-    <div className={styles.grid} style={{
-      '--cells':1,
-       gridTemplateColumns: `repeat(var(--cells), 1fr)`
-      }}>
+
+    <Grid>
       {data && data.allSitesYaml.edges.map(({ node }, index) => (
         <div className={styles.site} key={index}>
           <a href={node.url} target="_blank">
@@ -29,7 +27,10 @@ export default ({ data }) => (
           </a>
         </div>
       ))}
-    </div>
+    </Grid>
+
+    
+   
 {console.warn('add contact here')}
   </div>
 )

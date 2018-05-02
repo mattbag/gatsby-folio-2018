@@ -69,6 +69,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-items: flex-end;
+    /* background-color: var(--black, #1b2836); */
 }
 
 .shadow {
