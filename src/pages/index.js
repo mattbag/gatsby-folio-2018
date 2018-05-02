@@ -7,7 +7,10 @@ import styles from "./master.module.css"
 export default ({ data }) => (
   <div className={styles.wrap}>
    
-    <div className={styles.grid}>
+    <div className={styles.grid} style={{
+      '--cells':1,
+       gridTemplateColumns: `repeat(var(--cells), 1fr)`
+      }}>
       {data && data.allSitesYaml.edges.map(({ node }, index) => (
         <div className={styles.site} key={index}>
           <a href={node.url} target="_blank">
@@ -27,7 +30,7 @@ export default ({ data }) => (
         </div>
       ))}
     </div>
-
+{console.warn('add contact here')}
   </div>
 )
 

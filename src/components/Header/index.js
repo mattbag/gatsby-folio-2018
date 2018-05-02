@@ -6,14 +6,15 @@ const Header = () => (
 
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: `60em`,
-        padding: '1rem',
-        textAlign: `center`,
+        // margin: '0 auto',
+        // maxWidth: `60em`,
+        padding: '.5rem',
+        // textAlign: `center`,
         position: 'fixed',
         zIndex: 2,
         left:0,
-        right:0
+        top:`-.7rem`,
+        // right:0
       }}
     >
         <Link
