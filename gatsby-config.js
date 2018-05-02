@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Matt Bagni @ 2018 w/ Gatsby Lamba',
   },
   plugins: [
     `gatsby-plugin-react-next`,
@@ -11,7 +11,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "data",
-        path: "./src",
+        path: "./src/data",
       },
     },
 
