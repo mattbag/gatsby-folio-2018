@@ -52,16 +52,24 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     display: grid;
-    grid-gap: 4vmax;
+    grid-gap: 2rem;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(var(--cells), 1fr);
 }
 
+.grid__switch{
+    display: none
+}
 @media screen and (max-width:800px){
     .grid__switch{
         display: none
     }
 }
+ @supports (display:var(--var)){
+    .grid__switch{
+        display: initial
+    }
+ }
 
 /* .site {
     margin: .5rem;
@@ -91,7 +99,7 @@ h1 {
 .label {
     composes: shadow;
     background-color: #0e7decdc;
-    padding: 1rem 2rem;
+    padding: .5rem;
     transform: skew(calc(-var(--body-skew)*5));
     /* position: absolute;
     bottom: -.5rem;
@@ -99,13 +107,13 @@ h1 {
     right: auto; */
     /* box-shadow: var(--shadow); */
     grid-area: 1/1/1/5;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     margin-left: -1rem;
 }
 
 .label__in {
     line-height: .8;
-    font-size: 3vmin;
+    font-size:1rem;
     transform: skew(calc(var(--body-skew)*5));
 }
 

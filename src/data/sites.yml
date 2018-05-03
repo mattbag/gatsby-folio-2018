@@ -11,66 +11,66 @@
 # - url: https://www.mattbag.github.io/portfolio2016
   # name: Static Wp
 - url: https://mattbag.github.io/tinderwars
-  name: Ionic Tinder Wars
+  name: Ionic2 Tinder Wars
 - url: https://mattbag.github.io/dosnap
-  name: Ionic ToDo
+  name: Ionic2 ToDo
 - url: https://mattbag.github.io/ion-hub
-  name: Ionic Github
+  name: Ionic2 Github
 - url: https://www.mortgagechoice.com.au
-  name: Mortgage Choice
+  name: FE Design System
 - url: https://atlasagency.com.au
-  name: Atlas Agency
+  name: Html Landing
 - url: http://caoa.com.au
-  name: CAOA
+  name: WP Custom Site
 - url: https://www.beautyinsider.com.au
-  name: The Beauty Insider
+  name: WP Custom Blog
 - url: https://www.centralelement.com.au
-  name: Central Element
-# - url: https://www.themalton.com.au
-  # name: The Malton
+  name: WP Custom Site
+- url: https://www.themalton.com.au
+  name: WP Custom Site
 # - url: https://www.themalton.com.au
   # name: The Malton
 # - url: https://www.drivershq.com.au
-#   name: DriversHQ Au
+#   name: Static Umbraco Site
 # - url: https://av1.com.au
-#   name: AV1
+#   name: WP Custom Site
 # - url: http://www.marchesepartners.com
-#   name: Merchese
+#   name: WP Custom Site
 # - url: http://www.massimomele.com
-#   name: Massimo Mele
+#   name: WP Custom Site
 # - url: http://www.smartfreight.com
-#   name: Smartfreight
+#   name: Umbraco Site
 # - url: http://www.youngacademics.com.au
-#   name: Young Academics
+#   name: WP Custom Site
 # - url: http://www.likemindadvisory.com.au
-#   name: Like Mind Advisory
+#   name: WP Custom Site
 # - url: http://www.decorsystems.com.au
-#   name: Decor Systems
+#   name: WP Custom Site
 # - url: http://www.pallacapital.com.au
-#   name: Pallas Capital
+#   name: Umbraco Custom Site
 # - url: http://www.sprintr.com.au
-#   name: Sprintr
+#   name: WP Custom Site
 # - url: http://www.threadtogether.org.au
-#   name: ThreadTogether
+#   name: WP Custom Site
 # - url: http://www.born-raised.com.au
-#   name: Born&Raised
+#   name: WP Custom Site
 # - url: http://www.clarkeandhumel.com.au
-#   name: Clarke&Humel
+#   name: Umbraco Custom Site
 # - url: http://www.thesquiz.com.au
-#   name: The Squiz
+#   name: Umbraco Custom Site
 # - url: http://www.marrytheman.com.au
-#   name: Marry The Man
+#   name: Umbraco Custom Site
 # - url: http://www.thehourglass.com
 #   name: The Hour Glass
 # - url: http://contentiouscharacter.com.au
-#   name: Contentious Character
-# - url: http://www.easyshirt.it
-#   name: Easyshirt.it
-# - url: http://www.maglificiolsm.com
-#   name: LSM
-# - url: https://mattbag.github.io/volaagency
-#   name: Vola Agency
-# - url: https://mattbag.github.io/garagenerd
-#   name: Garage Nerd
-# - url: https://mattbag.github.io/pizzeria
-#   name: Giorgione Pizzeria
+#   name: Shopify Custom Site
+- url: http://www.easyshirt.it
+  name: Wp ecomm
+- url: http://www.maglificiolsm.com
+  name: Gatsby Site
+- url: https://mattbag.github.io/volaagency
+  name: Static Muse site
+- url: https://mattbag.github.io/garagenerd
+  name: Static Muse site
+- url: https://mattbag.github.io/pizzeria
+  name: Static Muse site

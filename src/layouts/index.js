@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
     <div
       style={{
         margin: '0 auto',
-        maxWidth: `60em`,
+        maxWidth: `80em`,
         padding: '1rem',
         paddingTop: 0,
       }}
