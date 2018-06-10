@@ -8,13 +8,12 @@ import styles from './../pages/master.module.css'
 
 const TemplateWrapper = ({ children }) => (
   <div className={styles.outer}>
-    <Helmet
-      title="🤓 Matt__Bagni--2018"
-    />
+    <Helmet title="🤓 Matt__Bagni--2018" />
 
     <Header />
 
-    <div className={styles.inner}
+    <div
+      className={styles.inner}
       style={{
         margin: '0 auto',
         maxWidth: `80em`,

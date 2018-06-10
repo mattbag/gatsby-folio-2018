@@ -44,8 +44,8 @@
 #   name: WP Custom Site
 # - url: http://www.likemindadvisory.com.au
 #   name: WP Custom Site
-# - url: http://www.pallacapital.com.au
-  # name: Umbraco Custom Site
+- url: http://www.pallascapital.com.au
+  name: Umbraco Custom Site
 # - url: http://www.sprintr.com.au
 #   name: WP Custom Site
 # - url: http://www.threadtogether.org.au

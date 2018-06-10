@@ -35,8 +35,8 @@ export default class Grid extends Component {
             top: '2rem',
             color: '#fff',
             marginBottom: 0,
-            '--cursor':this.cells > 2 ? 'zoom-out' : 'zoom-in',
-            cursor: 'var(--cursor)'
+            '--cursor': this.cells > 2 ? 'zoom-out' : 'zoom-in',
+            cursor: 'var(--cursor)',
           }}
         >
           change

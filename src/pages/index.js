@@ -2,13 +2,13 @@ import React from 'react'
 import Img from 'gatsby-image'
 import Grid from './../components/Grid/index'
 import About from './../components/About/index'
+import Social from './../components/Social/index'
 
 import styles from './master.module.css'
 // import logo from "../gatsby-light.svg"
 
 export default ({ data }) => (
   <div className={styles.wrap}>
-      <About />
     <Grid>
       {data &&
         data.allSitesYaml.edges.map(({ node }, index) => (
@@ -31,8 +31,7 @@ export default ({ data }) => (
         ))}
     </Grid>
 
-    {console.warn('add contact here')}
-    {console.warn('add build info/credits')}
+    <About md={data.allMarkdownRemark.edges} />
   </div>
 )
 
@@ -52,6 +51,14 @@ export const query = graphql`
               }
             }
           }
+        }
+      }
+    }
+    allMarkdownRemark(filter: { id: { regex: "/about/" } }) {
+      edges {
+        node {
+          id
+          html
         }
       }
     }
