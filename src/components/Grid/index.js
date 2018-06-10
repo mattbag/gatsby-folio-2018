@@ -12,7 +12,7 @@ export default class Grid extends Component {
   // this.grid.current.style.setProoerty('--cells',2)
   // }
   changeCells = () => {
-    this.cells > 2 ? (this.cells = 1) : (this.cells += 1)
+    this.cells > 3 ? (this.cells = 1) : (this.cells += 1)
     this.grid.current.style.setProperty('--cells', this.cells)
   }
 

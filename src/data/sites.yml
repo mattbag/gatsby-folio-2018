@@ -1,12 +1,12 @@
 - url: https://mattbag.github.io
-  name: My Portfolio
+  name: My Portfolio 2016
 - url: https://mattbag.github.io/wp-gatsby
   name: Gatsby wp demo
 - url: https://gatsby-gallery-netlify-cms.netlify.com
   name: Gatsby Gallery 
 - url: https://mattbag-2017.netlify.com
   name: Gatsby Contenful
-- url: http://wised.altervista.org
+- url: http://borntobewise.altervista.org
   name: React WP
 # - url: https://www.mattbag.github.io/portfolio2016
   # name: Static Wp
@@ -30,24 +30,22 @@
   name: WP Custom Site
 # - url: https://www.themalton.com.au
   # name: The Malton
-# - url: https://www.drivershq.com.au
-#   name: Static Umbraco Site
-# - url: https://av1.com.au
-#   name: WP Custom Site
+- url: https://www.drivershq.com.au
+  name: Static Umbraco Site
+- url: https://av1.com.au
+  name: WP Custom Site
 # - url: http://www.marchesepartners.com
 #   name: WP Custom Site
-# - url: http://www.massimomele.com
-#   name: WP Custom Site
+- url: http://www.massimomele.com
+  name: WP Custom Site
 # - url: http://www.smartfreight.com
 #   name: Umbraco Site
 # - url: http://www.youngacademics.com.au
 #   name: WP Custom Site
 # - url: http://www.likemindadvisory.com.au
 #   name: WP Custom Site
-# - url: http://www.decorsystems.com.au
-#   name: WP Custom Site
 # - url: http://www.pallacapital.com.au
-#   name: Umbraco Custom Site
+  # name: Umbraco Custom Site
 # - url: http://www.sprintr.com.au
 #   name: WP Custom Site
 # - url: http://www.threadtogether.org.au
@@ -56,14 +54,14 @@
 #   name: WP Custom Site
 # - url: http://www.clarkeandhumel.com.au
 #   name: Umbraco Custom Site
-# - url: http://www.thesquiz.com.au
-#   name: Umbraco Custom Site
-# - url: http://www.marrytheman.com.au
-#   name: Umbraco Custom Site
+- url: http://www.thesquiz.com.au
+  name: Umbraco Custom Site
+- url: http://www.marrytheman.com.au
+  name: Umbraco Custom Site
 # - url: http://www.thehourglass.com
-#   name: The Hour Glass
+#   name: Wp Custom Multisite
 # - url: http://contentiouscharacter.com.au
-#   name: Shopify Custom Site
+  # name: Shopify Custom Site
 - url: http://www.easyshirt.it
   name: Wp ecomm
 - url: http://www.maglificiolsm.com

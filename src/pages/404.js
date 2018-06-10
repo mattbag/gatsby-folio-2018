@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from '../components/Header'
+import Link from 'gatsby-link'
 
 const NotFoundPage = () => (
   <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Header />
+
+    <h1>404__NOT--FOUND</h1>
+    <p>You just hit a route that doesn&#39;t exist...</p>
+    <Link to='/'/>
   </div>
 )
 

@@ -1,12 +1,14 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import Grid from './../components/Grid/index'
+import About from './../components/About/index'
 
 import styles from './master.module.css'
 // import logo from "../gatsby-light.svg"
 
 export default ({ data }) => (
   <div className={styles.wrap}>
+      <About />
     <Grid>
       {data &&
         data.allSitesYaml.edges.map(({ node }, index) => (

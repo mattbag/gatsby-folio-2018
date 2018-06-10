@@ -15,17 +15,31 @@ html {
     background-image: url('./../as.gif');
     background-blend-mode: luminosity;
 }
+.skew1{
+    transform: skewY(var(--body-skew));
+}
+.skew2{
+    transform: skewY(-var(--body-skew));
+}
 
 body {
-    transform: skewY(var(--body-skew));
-    box-shadow: var(--shadow);
     background-color: var(--black);
     font-family: 'Courier New', Courier, monospace
 }
 
-body>div {
-    transform: skewY( -var(--body-skew));
+.outer{
+    background-color: var(--black);
+    box-shadow: var(--shadow);
+    /* transform: skewY(var(--body-skew)); */
+    composes: skew1
 }
+.inner{
+    composes: skew2
+}
+
+/* body>div {
+    transform: skewY(-var(--body-skew));
+} */
 
 .wrap {
     /* max-width: 900px; */

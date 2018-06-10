@@ -4,18 +4,17 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import './index.css'
+import styles from './../pages/master.module.css'
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className={styles.outer}>
     <Helmet
-      title="Matt Bagni 🤓 2018"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+      title="🤓 Matt__Bagni--2018"
     />
+
     <Header />
-    <div
+
+    <div className={styles.inner}
       style={{
         margin: '0 auto',
         maxWidth: `80em`,
